@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import Checkbox, { length, character } from "@/components/Checkbox";
-import ResizablePanel from "@/components/ResizablePanel";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Checkbox, { length, character } from "../components/Checkbox";
+import ResizablePanel from "../components/ResizablePanel";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
