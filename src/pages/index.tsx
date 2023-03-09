@@ -2,6 +2,7 @@ import Checkbox from "../components/Checkbox";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { useState } from "react";
+import Announcement from "../components/Announcement";
 
 export const checkboxes = [
   { id: 1, option: "Letters" },
@@ -83,6 +84,7 @@ export default function Home() {
   return (
     <div className="h-screen w-full flex flex-col justify-between">
       <div>
+        <Announcement />
         <Header />
       </div>
       <div className="px-4">
