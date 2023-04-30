@@ -28,7 +28,7 @@ export default function Home() {
   };
 
   const generatePassword = () => {
-    const letters = "abcdefghijklmnopqrstuvwxyz";
+    const letters = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
     const numbers = "0123456789";
     const symbols = "!@#$%^&*_+";
 
