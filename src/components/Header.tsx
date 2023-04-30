@@ -15,7 +15,7 @@ export default function Header() {
       <div className="flex">
         <Link
           className="flex space-x-1 items-center"
-          href="https://github.com/Brianmulinge"
+          href="https://github.com/Brianmulinge/securekey"
         >
           <AiFillGithub className="h-8 w-8" />
           <h1>Github</h1>
