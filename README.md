@@ -1,8 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SecureKey - Advanced Password Generator
+
+SecureKey is a modern, secure password generator built with Next.js and Tailwind CSS. Create strong, customizable passwords instantly for enhanced online security.
+
+![SecureKey Screenshot](https://via.placeholder.com/800x400?text=SecureKey+Screenshot)
+
+## Features
+
+- Customizable password length (10-25 characters)
+- Mix and match character types (letters, numbers, symbols)
+- Clean, intuitive UI for easy password generation
+- Instant copy to clipboard functionality
+- Mobile-responsive design
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 16.x or later
+- npm, yarn, or pnpm
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Brianmulinge/securekey.git
+cd securekey
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn
+# or
+pnpm install
+```
+
+3. Start the development server:
 
 ```bash
 npm run dev
@@ -12,28 +48,38 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Usage
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+1. Select the desired password length using the dropdown menu
+2. Choose which character types to include (letters, numbers, symbols)
+3. Click "Generate Password" to create a new secure password
+4. Use the "Copy to Clipboard" button to copy the password for immediate use
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Technology Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js](https://nextjs.org/) - React framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Tailwind CSS](https://tailwindcss.com/) - Styling
+- [DaisyUI](https://daisyui.com/) - UI component library
 
-## Learn More
+## Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This app can be easily deployed using [Vercel](https://vercel.com/), the platform created by the makers of Next.js.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run build
+# or
+yarn build
+# or
+pnpm build
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Created By
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# securekey" 
+[Brian Mulinge](https://brianmulinge.com)
